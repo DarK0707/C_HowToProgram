@@ -17,7 +17,7 @@ h) Display "The product is" followed by the value of the int variable result.
 
 #include <stdio.h>
 
-//program will calculate 3 integer
+//program will calculate product of 3 integer
 
 int main() {
 
@@ -26,13 +26,14 @@ int main() {
  int x = 0;
  int y = 0;
  int z = 0;
- int result;
+
+
+
 
  scanf("%d %d %d", &x, &y, &z);
+ int result = x * y * z;
 
- result = x + y + z;
-
- printf("The product is %d",result);
+ printf("The product is %d\n",result);
 
 
 

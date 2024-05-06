@@ -49,8 +49,26 @@ cmake_ninja_workdir = /home/sezerdev/CLionProjects/C_How_to_Program/cmake-build-
 
 build cmake_object_order_depends_target_C_How_to_Program: phony || CMakeFiles/C_How_to_Program.dir
 
-build CMakeFiles/C_How_to_Program.dir/ex-2.3.c.o: C_COMPILER__C_How_to_Program_unscanned_Debug /home/sezerdev/CLionProjects/C_How_to_Program/ex-2.3.c || cmake_object_order_depends_target_C_How_to_Program
-  DEP_FILE = CMakeFiles/C_How_to_Program.dir/ex-2.3.c.o.d
+build CMakeFiles/C_How_to_Program.dir/ex-2.4.c.o: C_COMPILER__C_How_to_Program_unscanned_Debug /home/sezerdev/CLionProjects/C_How_to_Program/ex-2.4.c || cmake_object_order_depends_target_C_How_to_Program
+  DEP_FILE = CMakeFiles/C_How_to_Program.dir/ex-2.4.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_How_to_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_How_to_Program.dir
+
+build CMakeFiles/C_How_to_Program.dir/ex-2.16.c.o: C_COMPILER__C_How_to_Program_unscanned_Debug /home/sezerdev/CLionProjects/C_How_to_Program/ex-2.16.c || cmake_object_order_depends_target_C_How_to_Program
+  DEP_FILE = CMakeFiles/C_How_to_Program.dir/ex-2.16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_How_to_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_How_to_Program.dir
+
+build CMakeFiles/C_How_to_Program.dir/ex-2.19.c.o: C_COMPILER__C_How_to_Program_unscanned_Debug /home/sezerdev/CLionProjects/C_How_to_Program/ex-2.19.c || cmake_object_order_depends_target_C_How_to_Program
+  DEP_FILE = CMakeFiles/C_How_to_Program.dir/ex-2.19.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_How_to_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_How_to_Program.dir
+
+build CMakeFiles/C_How_to_Program.dir/ex-2.18.c.o: C_COMPILER__C_How_to_Program_unscanned_Debug /home/sezerdev/CLionProjects/C_How_to_Program/ex-2.18.c || cmake_object_order_depends_target_C_How_to_Program
+  DEP_FILE = CMakeFiles/C_How_to_Program.dir/ex-2.18.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/C_How_to_Program.dir
   OBJECT_FILE_DIR = CMakeFiles/C_How_to_Program.dir
@@ -63,7 +81,7 @@ build CMakeFiles/C_How_to_Program.dir/ex-2.3.c.o: C_COMPILER__C_How_to_Program_u
 #############################################
 # Link the executable C_How_to_Program
 
-build C_How_to_Program: C_EXECUTABLE_LINKER__C_How_to_Program_Debug CMakeFiles/C_How_to_Program.dir/ex-2.3.c.o
+build C_How_to_Program: C_EXECUTABLE_LINKER__C_How_to_Program_Debug CMakeFiles/C_How_to_Program.dir/ex-2.4.c.o CMakeFiles/C_How_to_Program.dir/ex-2.16.c.o CMakeFiles/C_How_to_Program.dir/ex-2.19.c.o CMakeFiles/C_How_to_Program.dir/ex-2.18.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/C_How_to_Program.dir
   POST_BUILD = :
